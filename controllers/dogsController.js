@@ -4,12 +4,18 @@ const controller = express.Router();
 const dogData = require('../dogData.json');
 
 controller.get('/', (request, response) => {
+    let { limit=5 } = request.query;
+
+    limit = Number(limit)
+
+    let dogDataForDelivery = {...dogData};
+    dogDataForDelivery.dogs = dogDataForDelivery.dogs.slice(0, limit)
+
     // response.send('Hello from the dogs controller')
-    response.json(dogData);
+    response.json({dogData})
 })
 
 // Route that accepts a dog id as part of the path
-
 controller.get('/:id', (request, response) => {
     try {
     const dogId = request.params.id;
@@ -22,7 +28,6 @@ controller.get('/:id', (request, response) => {
         return dog.id === dogId;
     });
 
-    console.log(singleDog);
     if(singleDog){
         response.json(singleDog);
     } else {

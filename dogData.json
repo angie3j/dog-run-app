@@ -1,13 +1,22 @@
 {
     "dogs": [
     {
-    "city": "Bronx",
-    "email": "iorton0@imdb.com",
-    "firstName": "Pepper",
     "id": "1",
-    "lastName": "Perez",
     "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg",
-    "skill": "Oracle"
+    "email": "iorton0@imdb.com",
+    "firstName": "Angie",
+    "lastName": "Perez",
+    "phoneNumber": "631-533-2181",
+    "ownADog": "yes",
+    "dogName": "Pepper",
+    "dogBreed": "Houndmix",
+    "dogsAge": "23months",
+    "dogsWeight": "49lbs",
+    "committeeInterested": "Social Media",
+    "howLongOfACommitment": "1 year",
+    "anyOtherPets": "4 Cats",
+    "otherPetsNames": "Coco, Harry, Cata, Blondie"
+  
     },
     {
     "city": "RoxyBelle",
