@@ -1,5 +1,5 @@
 {
-"dogOwners": [
+"dogData": [
 {
 "id":1,"dogPic":"http://dummyimage.com/224x100.png/cc0000/ffffff","email":"pallmann0@yolasite.com","ownersFirstName":"Page","ownersLastName":"Allmann","telephone":"564-724-0101","dogName":"Buffalo, american","dogBreed":"Bison bison","dogAge":12,"dogWeight":141,"otherPets":false,"otherPetsNames":"⁰⁴⁵"},
 {"id":2,"dogPic":"http://dummyimage.com/121x100.png/cc0000/ffffff","email":"vwollers1@usa.gov","ownersFirstName":"Van","ownersLastName":"Wollers","telephone":"928-947-7258","dogName":"Avocet, pied","dogBreed":"Recurvirostra avosetta","dogAge":22,"dogWeight":33,"otherPets":true,"otherPetsNames":"🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧"},
